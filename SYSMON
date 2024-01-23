@@ -6,22 +6,24 @@ Install/Config:
     Print schema: sysmon64 -s
     Uninstall: sysmon64 -u [force]
 
+
+
+
+
 Event IDs
-  1
-  2
-  3
-  4
-  5
-  6
-  7
-  8
-  9
-  10
-  11
-  12
-  13
-  14
-  15
+  1  Process Creation
+  2  Process Changed A File Creation Time
+  3  Network Connections
+  4  Sysmon Service Changes
+  5  Driver Loaded
+  6  Image Loaded
+  7  CreateRemoteThread
+  8  RawAccessRead
+  9  ProcessAccess
+  10  File Creation Events
+  11  
+  12,13,14  File Creation Events
+  15  FileCreateStreamHash
   16
   17
   18
